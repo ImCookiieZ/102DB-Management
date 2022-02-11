@@ -15,6 +15,7 @@ CREATE TABLE IF NOT EXISTS EndUser
     email VARCHAR(50) NOT NULL UNIQUE,
     passcode VARCHAR(72) NOT NULL,
     emailConfirmed BOOLEAN NOT NULL,
+    age INTEGER NOT NULL,
     currentOAuthUserID uuid
 );
 
